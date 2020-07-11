@@ -14,9 +14,11 @@ class Car(Rider):
         self._enclosed = enclosed
         self._engine = engine
 
+    '''Overrides abstract class method'''
     def ride(self):
         return 'Vrooom, beep beep.'
 
+    '''Overrides abstract class method'''
     def riders(self):
         return 'It was an absolute clown car. Arms and legs everywhere.'
 

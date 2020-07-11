@@ -14,9 +14,11 @@ class Motorcycle(Rider):
         self._enclosed = enclosed
         self._engine = engine
 
+    '''Overrides abstract class method'''
     def ride(self):
         return '400lbs and 200hp. What could go wrong?'
 
+    '''Overrides abstract class method'''
     def riders(self):
         return 'Very cozy accommodations for two.'
 

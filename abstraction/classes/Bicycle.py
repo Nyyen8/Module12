@@ -14,9 +14,11 @@ class Bicycle(Rider):
         self._enclosed = enclosed
         self._engine = engine
 
+    '''Overrides abstract class method'''
     def ride(self):
         return "Pedal powered. It doesn't get easier, you just go faster"
 
+    '''Overrides abstract class method'''
     def riders(self):
         return 'Just the one.'
 
